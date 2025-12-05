@@ -1,3 +1,21 @@
+title: "JETSER的个人博客"  # 例如：张三的数字花园
+baseURL: "https://blog.csdwt.qzz.io" # 换成你的 Cloudflare 绑定的域名
+
+params:
+  # 首页显示的个人简介模式
+  profileMode:
+    enabled: true
+    title: "你好，我是JESTER"
+    subtitle: "这里写一句你的座右铭或简介"
+    imageUrl: "https://avatars.githubusercontent.com/u/121276630?v=4" # 如果没有链接，暂时先不管，稍后教你传
+    buttons:
+      - name: "我的B站"
+        url: "https://space.bilibili.com/353748617"
+      - name: "GitHub"
+        url: "https://github.com/JESTERRRRRRRRR"
+
+  # 开启多作者支持（满足你区分账号的需求）
+  showAuthor: true
 blank_issues_enabled: false
 contact_links:
   - name: PaperMod Discussions
